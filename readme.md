@@ -2,7 +2,15 @@
 
 ##Description and Motivation
 
-C♭ is a correctness-oriented dialect of C#. For the most part, it is a subset of C♯, or rather it can be realized using a C♯ compiler. The motive for specifying this language is similar to the one that led to the creation of design patterns: to enable better communication between programmers. So, instead of stating something like “you should mark all of your fields `readonly`” or “avoid code reuse through inheritance”,  I can now simply argue for using C♭ when you can and C♯ when you must, and hopefully avoid religious arguments over style guides.
+C♭ is a correctness-oriented dialect of C♯. For the most part, it is a subset of C♯, or rather it can be realized using a C♯ compiler. The motive for specifying this language is similar to the one that led to the creation of design patterns: to enable better communication between programmers. So, instead of stating something like “you should mark all of your fields `readonly`” or “avoid code reuse through inheritance”,  We can now simply argue for using C♭ when you can and C♯ when you must, and hopefully avoid religious arguments over “style”.
+
+
+##Features
+
+* C♯ and C♭ occupy the performance/correctness dichotomy. Programmers are already accustomed to using multiple general-purpose languages to address the different concerns of a project. C♯ and C♭ are close enough that there should be lower cognitive overhead in switching between the two, but this probably needs rigorous study to validate, and it is conceded that it may be better to have two very dissimilar languages when working at the extremes of a particular dichotomy.
+
+* C♭ forces programs to be simple because it eschews Turing equivalence and is, in fact, biased for creating state machines which are much easier to reason about.
+
 
 ###Normative
 
