@@ -1,6 +1,6 @@
-Specification for C Natural v1.0
+#Specification for C Natural v1.0
 
-Normative
+##Normative
 
 1.	All classes must be either sealed or abstract.
 2.	All fields must be read only.
@@ -9,7 +9,7 @@ Normative
 5.	Public functions must not return void.
 6.	Use of goto is an error.
 
-Non-normative
+##Non-normative
 
 1.	In C Natural, you call functions not methods. Methods are a purely abstract concept (this is also true in C# and Java despite what the specifications say).
 2.	Classes should model the state space of an application.
