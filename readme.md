@@ -10,6 +10,7 @@ Normative
 6.	Use of goto is an error.
 
 Non-normative
+
 1.	In C Natural, you call functions not methods. Methods are a purely abstract concept (this is also true in C# and Java despite what the specifications say).
 2.	Classes should model the state space of an application.
 3.	Class names should be perfective aspect verbs that represent completed actions (e.g. Tokenized rather than Tokenizer).
