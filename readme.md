@@ -1,5 +1,7 @@
 #Specification for C♭ v1.0
 
+C♭ is a correctness-oriented dialect of C#. For the most part, it is a subset of C#, or rather it can be realized using a C# compiler. The motive for specifying this language is similar to the one that led to the creation of design patterns: to enable better communication between programmers. So, instead of saying something like “you should mark all of your fields `readonly`” or “avoid code reuse through inheritance”,  I can now simply argue for using C♭ when you can and C# when you must, and hopefully avoid religious arguments over style guides.
+
 ###Normative
 
 1.	All classes must be either sealed or abstract.
