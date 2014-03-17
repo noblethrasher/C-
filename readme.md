@@ -12,6 +12,8 @@ C♭ is a correctness-oriented dialect of C♯. For the most part, it is a subse
 * C♭ forces programs to be simple because it eschews Turing equivalence and is, in fact, biased for creating state machines which are much easier to reason about.
 
 
+##Specification
+
 ###Normative
 
 1.	All classes must be either sealed or abstract.
