@@ -31,4 +31,4 @@ C♭ is a correctness-oriented dialect of C♯. For the most part, it is a subse
 4.	Most properties and functions should return `IEnumerable<T>` rather than `T`.
 5.	Most work should be in the constructors.
 6.	Classes should have one public function but may have many public properties.
-7.	Public functions should have exactly one formal parameter.
+7.	Public functions should have exactly one formal parameter. If such functions require multiple paramters, they should do so by specifying that a single formal parameter must implement an interface.
