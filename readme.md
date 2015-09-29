@@ -35,6 +35,10 @@ C♭ tends to use the [monad](https://en.wikipedia.org/wiki/Monad_(functional_pr
 5.	Most work should be in the constructors.
 6.	Classes should have one public function but may have many public properties.
 7.	Public functions should have exactly one formal parameter. If such functions require multiple paramters, they should do so by specifying that a single formal parameter must implement an interface.
+8.	Unlike C♯, C♭ makes a disctinction between the concepts of class and type. A class is the same thing in both C♯ and C♭, which is grouping of objects and functions (methods). In C♯ “type” is usually synonomous with the same concept as descibed by a set in mathematics, but this is redundant with respect to the definition of a class. Conversely, in C♭ a type is an invariant relatonship among classes. 
+    For instance, an `abstract` class, Foo, with two or more subclasses, Bar1, Bar2, ... describes a logical disjunction where Foo is either a Bar1, **or** a Bar2, **or**, ... 
+
+    Similarly,
 	
 
 
