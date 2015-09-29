@@ -31,7 +31,7 @@ C♭ tends to use the [monad](https://en.wikipedia.org/wiki/Monad_(functional_pr
 1.	In C♭, you *apply functions* rather than *call methods*. Methods are a purely abstract concept (this is also true in C♯ and Java despite what the specifications say).
 2.	Classes should model the state space of an application.
 3.	Class names should represent completed actions (e.g. *Tokenized* rather than *Tokenizer*).
-4.	Most properties and functions should return `IEnumerable<T>` rather than `T`.
+4.	Most public properties and functions should return `IEnumerable<T>` (or a class that implements `SelectMany`) rather than `T`.
 5.	Most work should be in the constructors.
 6.	Classes should have one public function but may have many public properties.
 7.	Public functions should have exactly one formal parameter. If such functions require multiple paramters, they should do so by specifying that a single formal parameter must implement an interface.
