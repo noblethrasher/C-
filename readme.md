@@ -6,7 +6,7 @@ C♭ is a correctness-oriented dialect of C♯. For the most part, it is a subse
 
 ###About the name
 
-C♭ tends to use the [monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)) pattern explicity (through LINQ by implementing [`SelectMany`](http://stackoverflow.com/questions/19321868/linq-selectmany-is-bind)) or implicitly; the name is a play on words as mondad is also about “flattening”.
+C♭ tends to use the [monad](https://en.wikipedia.org/wiki/Monad_(functional_programming)) pattern explicity (through LINQ by implementing [`SelectMany`](http://stackoverflow.com/questions/19321868/linq-selectmany-is-bind)) or implicitly; the name is a play on words as the mondad concept is also about “flattening”.
 
 ##Features
 
