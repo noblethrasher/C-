@@ -12,7 +12,7 @@ C♭ tends to use the [monad](https://en.wikipedia.org/wiki/Monad_(functional_pr
 
 * C♯ and C♭ occupy the performance/correctness dichotomy. Programmers are already accustomed to using multiple general-purpose languages to address the different concerns of a project. C♯ and C♭ are close enough that there should be lower cognitive overhead in switching between the two, but this probably needs rigorous study to validate, and it is conceded that it may be better to have two very dissimilar languages when working at the extremes of a particular dichotomy.
 
-* C♭ forces programs to be simple because it eschews Turing equivalence and is, in fact, biased for creating state machines which are much easier to reason about.
+* C♭ forces programs to be simple because it eschews Turing equivalence and is, in fact, biased for creating state machines, which are much easier to reason about.
 
 
 ##Specification
