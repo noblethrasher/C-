@@ -39,7 +39,7 @@ C♭ tends to use the [monad](https://en.wikipedia.org/wiki/Monad_(functional_pr
     
     For instance, an `abstract` class, Foo, with two or more subclasses, Bar1, Bar2, ... describes a logical disjunction where Foo is either a Bar1, **or** a Bar2, **or**, ... 
 
-    Similarly, we can model logical conjunctions using interfaces. Thus, if Foo implements interfaces for IBar and IBaz then is at once a IBar and a IBaz.
+    Similarly, we can model logical conjunctions using interfaces. Thus, if Foo implements interfaces for IBar and IBaz then an instance of Foo is at once an IBar and an IBaz.
 	
 
 
